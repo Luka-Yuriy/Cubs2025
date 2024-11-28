@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,28 +13,28 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cubs2025" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="li9-ez-weO" userLabel="CubeViewOne">
-                                <rect key="frame" x="16" y="75" width="361" height="355.66666666666669"/>
+                                <rect key="frame" x="16" y="82" width="408" height="400"/>
                                 <color key="backgroundColor" systemColor="tintColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QHm-QE-nTf" userLabel="CubeViewTwo">
-                                <rect key="frame" x="16" y="446.66666666666674" width="361" height="355.33333333333326"/>
+                                <rect key="frame" x="16" y="502" width="408" height="400"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="li9-ez-weO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="FrX-Bn-TNQ"/>
+                            <constraint firstItem="li9-ez-weO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="FrX-Bn-TNQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QHm-QE-nTf" secondAttribute="trailing" constant="16" id="OiW-QV-yff"/>
                             <constraint firstItem="li9-ez-weO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Uha-vb-blj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="li9-ez-weO" secondAttribute="trailing" constant="16" id="gJL-ep-DRl"/>
-                            <constraint firstItem="QHm-QE-nTf" firstAttribute="top" secondItem="li9-ez-weO" secondAttribute="bottom" constant="16" id="l5N-08-RFs"/>
+                            <constraint firstItem="QHm-QE-nTf" firstAttribute="top" secondItem="li9-ez-weO" secondAttribute="bottom" constant="20" id="l5N-08-RFs"/>
                             <constraint firstItem="QHm-QE-nTf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="nsY-8X-4v7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QHm-QE-nTf" secondAttribute="bottom" constant="16" id="uxM-Ck-2ms"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QHm-QE-nTf" secondAttribute="bottom" constant="20" id="uxM-Ck-2ms"/>
                             <constraint firstItem="QHm-QE-nTf" firstAttribute="height" secondItem="li9-ez-weO" secondAttribute="height" id="xLg-yy-hEQ"/>
                         </constraints>
                     </view>
